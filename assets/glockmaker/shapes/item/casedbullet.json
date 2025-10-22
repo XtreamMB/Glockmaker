@@ -1,0 +1,117 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"metal": "game:block/metal/plate/lead",
+		"brass": "game:block/metal/plate/brass"
+	},
+	"elements": [
+		{
+			"name": "Bullet",
+			"from": [ 7.5, -0.5, 6.5 ],
+			"to": [ 8.5, 0.5, 7.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 7.0 ],
+			"faces": {
+				"north": {
+					"texture": "#metal",
+					"uv": [ 6.5, 7.0, 7.5, 8.0 ]
+				},
+				"east": {
+					"texture": "#metal",
+					"uv": [ 6.5, 6.5, 7.5, 7.5 ]
+				},
+				"south": {
+					"texture": "#metal",
+					"uv": [ 6.5, 6.0, 7.5, 7.0 ]
+				},
+				"west": {
+					"texture": "#metal",
+					"uv": [ 4.0, 8.0, 5.0, 9.0 ]
+				},
+				"up": {
+					"texture": "#metal",
+					"uv": [ 7.0, 6.5, 8.0, 7.5 ]
+				},
+				"down": {
+					"texture": "#metal",
+					"uv": [ 9.0, 4.5, 10.0, 5.5 ]
+				}
+			},
+			"children": [
+				{
+					"name": "Casing",
+					"from": [ -0.1, -0.1, 0.7 ],
+					"to": [ 1.1, 1.1, 2.7 ],
+					"rotationOrigin": [ 0.0, 0.0, 1.0 ],
+					"faces": {
+						"north": {
+							"texture": "#brass",
+							"uv": [ 0.0, 0.0, 1.0, 1.0 ]
+						},
+						"east": {
+							"texture": "#brass",
+							"uv": [ 0.0, 0.0, 2.0, 1.0 ]
+						},
+						"south": {
+							"texture": "#brass",
+							"uv": [ 0.0, 0.0, 1.0, 1.0 ]
+						},
+						"west": {
+							"texture": "#brass",
+							"uv": [ 0.0, 0.0, 2.0, 1.0 ]
+						},
+						"up": {
+							"texture": "#brass",
+							"uv": [ 0.0, 0.0, 1.0, 2.0 ]
+						},
+						"down": {
+							"texture": "#brass",
+							"uv": [ 0.0, 0.0, 1.0, 2.0 ]
+						}
+					},
+					"children": [
+						{
+							"name": "Cap",
+							"from": [ -0.05, -0.05, 2.0 ],
+							"to": [ 1.25, 1.25, 2.2 ],
+							"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+							"faces": {
+								"north": {
+									"texture": "#brass",
+									"uv": [ 0.0, 0.0, 5.0, 1.0 ],
+									"autoUv": false
+								},
+								"east": {
+									"texture": "#brass",
+									"uv": [ 0.0, 0.0, 0.5, 1.0 ]
+								},
+								"south": {
+									"texture": "#brass",
+									"uv": [ 0.0, 0.0, 1.0, 1.0 ]
+								},
+								"west": {
+									"texture": "#brass",
+									"uv": [ 0.0, 0.0, 0.5, 1.0 ]
+								},
+								"up": {
+									"texture": "#brass",
+									"uv": [ 0.0, 0.0, 1.0, 0.5 ]
+								},
+								"down": {
+									"texture": "#brass",
+									"uv": [ 0.0, 0.0, 1.0, 0.5 ]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
