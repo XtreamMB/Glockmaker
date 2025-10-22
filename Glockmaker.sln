@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Glockmaker", "Glockmaker\Glockmaker\Glockmaker.csproj", "{991B0940-0323-47D7-8B6C-35B4B9A6FEDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeBuild", "Glockmaker\ZZCakeBuild\CakeBuild.csproj", "{17194A96-6558-4056-B2B0-D81402F820AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{991B0940-0323-47D7-8B6C-35B4B9A6FEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991B0940-0323-47D7-8B6C-35B4B9A6FEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991B0940-0323-47D7-8B6C-35B4B9A6FEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991B0940-0323-47D7-8B6C-35B4B9A6FEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17194A96-6558-4056-B2B0-D81402F820AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17194A96-6558-4056-B2B0-D81402F820AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17194A96-6558-4056-B2B0-D81402F820AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17194A96-6558-4056-B2B0-D81402F820AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F92A9E2-AB52-44AA-9BE6-0E450E798ADE}
+	EndGlobalSection
+EndGlobal
