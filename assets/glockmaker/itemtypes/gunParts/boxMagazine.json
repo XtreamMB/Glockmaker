@@ -1,0 +1,89 @@
+{
+    "code": "rifle-box-magazine",
+    "class": "Item",
+    "maxstacksize": 1,
+    "storageFlags": 513,
+
+    "shape": { "base": "glockmaker:shapes/item/boxmagazine" },
+
+    "creativeinventory": {
+        "general": [ "*" ],
+        "glockmaker": [ "*" ]
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": -19,
+            "y": 22,
+            "z": -180
+        },
+        "origin": {
+            "x": -0.38,
+            "y": -0.34,
+            "z": -1.3
+        },
+        "scaleXyz": {
+            "x": -2.22,
+            "y": 2.22,
+            "z": 2.22
+        }
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 0.8
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0.05,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 90
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 4.8
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.47,
+            "z": 0.5
+        },
+        "scale": 2
+    }
+}
