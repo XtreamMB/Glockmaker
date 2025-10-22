@@ -1,0 +1,21 @@
+{
+    "hello": "hello world!",
+
+    "game:tabname-glockmaker": "Glockmaker",
+
+    "item-firearm-boltaction-*": "Bolt-Action Rifle",
+    "item-cased-bullet-lead": "Cased Bullet (Brass)",
+    "item-bullet-casing-brass-lead": "Bullet Casing (Brass)",
+
+    "item-gun-stock-polished": "Polished Gun Stock",
+    "item-gun-stock-raw": "Raw Gun Stock",
+    "item-rifle-box-magazine": "Box Magazine (Iron)",
+    "item-rifle-receiver": "Rifle Receiver (Iron)",
+    "item-spring": "Cupronickel Spring",
+    "item-rifle-bolt": "Rifle Bolt (Iron)",
+    "item-rifle-barrel": "Rifle Barrel (Iron)",
+
+    "item-drillbit": "Rifling Drillbit",
+    "item-rifle-drill": "Rifling Drill"
+
+}
