@@ -1,0 +1,21 @@
+{
+    "ingredientPattern": "B,S",
+    "width": 1,
+    "height": 2,
+    "ingredients": {
+        "B": {
+            "type": "item",
+            "code": "glockmaker:drillbit",
+            "quantity": 1
+        },
+        "S": {
+            "type": "item",
+            "code": "game:stick",
+            "quantity": 1
+        }
+    },
+    "output": {
+        "type": "item",
+        "code": "glockmaker:rifle-drill"
+    }
+}

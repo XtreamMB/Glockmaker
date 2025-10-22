@@ -1,0 +1,27 @@
+{
+    "ingredientPattern": "FBD",
+    "width": 3,
+    "height": 1,
+    "ingredients": {
+        "F": {
+            "type": "item",
+            "code": "game:fat",
+            "quantity": 1
+        },
+        "B": {
+            "type": "item",
+            "code": "maltiezfirearms:barrel-arquebus-iron",
+            "quantity": 1
+        },
+        "D": {
+            "type": "item",
+            "code": "glockmaker:rifle-drill",
+            "isTool": true
+        }
+    },
+    "requiresTrait": "tinkerer",
+    "output": {
+        "type": "item",
+        "code": "glockmaker:rifle-barrel"
+    }
+}

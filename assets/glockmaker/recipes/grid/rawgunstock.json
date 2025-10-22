@@ -1,0 +1,40 @@
+{
+    "ingredientPattern": "CPS,_G_",
+    "width": 3,
+    "height": 2,
+    "ingredients": {
+        "C": {
+            "type": "item",
+            "code": "game:chisel-*",
+            "isTool": true
+        },
+        "P": {
+            "type": "item",
+            "code": "game:plank-*",
+            "quantity": 3
+        },
+        "S": {
+            "type": "item",
+            "code": "game:saw-*",
+            "isTool": true
+        },
+        "G": {
+            "type": "block",
+            "code": "game:woodbucket",
+            "quantity": 1
+        }
+    },
+    "attributes": {
+        "liquidContainerProps": {
+            "requiresContent": {
+                "type": "item",
+                "code": "glueportion-pitch-*"
+            },
+            "requiresLitres": 1
+        }
+    },
+    "output": {
+        "type": "item",
+        "code": "glockmaker:gun-stock-raw"
+    }
+}

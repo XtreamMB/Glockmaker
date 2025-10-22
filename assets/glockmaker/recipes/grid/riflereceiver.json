@@ -1,0 +1,32 @@
+{
+    "ingredientPattern": "_N,SM,_P",
+    "width": 2,
+    "height": 3,
+    "ingredients": {
+        "N": {
+            "type": "item",
+            "code": "game:metalnailsandstrips-iron",
+            "quantity": 3
+        },
+        "S": {
+            "type": "item",
+            "code": "glockmaker:spring",
+            "quantity": 1
+        },
+        "M": {
+            "type": "item",
+            "code": "glockmaker:rifle-box-magazine",
+            "quantity": 1
+        },
+        "P": {
+            "type": "item",
+            "code": "game:metalplate-iron",
+            "quantity": 1
+        }
+    },
+    "requiresTrait": "tinkerer",
+    "output": {
+        "type": "item",
+        "code": "glockmaker:rifle-receiver"
+    }
+}

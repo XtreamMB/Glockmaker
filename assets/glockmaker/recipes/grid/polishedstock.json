@@ -1,0 +1,20 @@
+{
+    "ingredientPattern": "SW",
+    "width": 2,
+    "height": 1,
+    "ingredients": {
+        "S": {
+            "type": "item",
+            "code": "glockmaker:gun-stock-raw"
+        },
+        "W": {
+            "type": "item",
+            "code": "game:beeswax",
+            "quantity": 1
+        }
+    },
+    "output": {
+        "type": "item",
+        "code": "glockmaker:gun-stock-polished"
+    }
+}

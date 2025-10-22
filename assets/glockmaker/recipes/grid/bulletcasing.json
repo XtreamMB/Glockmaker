@@ -1,0 +1,17 @@
+{
+    "ingredientPattern": "P",
+    "width": 1,
+    "height": 1,
+    "ingredients": {
+        "P": {
+            "type": "item",
+            "code": "game:metalplate-brass",
+            "quantity": 1
+        }
+    },
+    "output": {
+        "type": "item",
+        "code": "glockmaker:bullet-casing-brass-lead",
+        "quantity": 32
+    }
+}

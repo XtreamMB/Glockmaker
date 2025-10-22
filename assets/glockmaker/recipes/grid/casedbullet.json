@@ -1,0 +1,28 @@
+{
+    "ingredientPattern": "B,C,P",
+    "width": 1,
+    "height": 3,
+    "ingredients": {
+        "B": {
+            "type": "item",
+            "code": "maltiezfirearms:bullet-lead",
+            "quantity": 1
+        },
+        "C": {
+            "type": "item",
+            "code": "glockmaker:bullet-casing-brass-lead",
+            "quantity": 1
+        },
+        "P": {
+            "type": "item",
+            "code": "maltiezfirearms:powderflask-*",
+            "isTool": true,
+            "toolDurabilityCost": 5
+        }
+    },
+    "requiresTrait": "tinkerer",
+    "output": {
+        "type": "item",
+        "code": "glockmaker:cased-bullet-lead"
+    }
+}
