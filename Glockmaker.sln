@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Glockmaker", "Glockmaker\Glockmaker\Glockmaker.csproj", "{991B0940-0323-47D7-8B6C-35B4B9A6FEDA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glockmaker", "Glockmaker\Glockmaker\Glockmaker.csproj", "{991B0940-0323-47D7-8B6C-35B4B9A6FEDA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeBuild", "Glockmaker\ZZCakeBuild\CakeBuild.csproj", "{17194A96-6558-4056-B2B0-D81402F820AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "Glockmaker\ZZCakeBuild\CakeBuild.csproj", "{17194A96-6558-4056-B2B0-D81402F820AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

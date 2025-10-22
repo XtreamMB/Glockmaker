@@ -1,0 +1,15 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Code",
+    "modid": "glockmaker",
+    "name": "Glockmaker",
+    "authors": [
+        "Gorg, the Red"
+    ],
+    "description": "The clockmaker firearms addition that nobody asked for, but got anyway.",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "1.21.0",
+        "maltiezfirearms": "1.2.0"
+    }
+}
